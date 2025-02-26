@@ -9,23 +9,22 @@ function Home() {
   const [playIndex, setPlayIndex] = useState(0);
 
   const VIDEOS = [
-    'videos/VIDEO1.mp4',
-    'videos/VIDEO2.mp4',
-    'videos/VIDEO3.mp4',
-    'videos/VIDEO4.mp4',
-    'videos/VIDEO5.mp4',
-    'videos/VIDEO6.mp4',
-    'videos/VIDEO7.mp4',
-    'videos/VIDEO8.mp4',
-    'videos/VIDEO9.mp4',
-    'videos/VIDEO10.mp4',
-    'videos/VIDEO11.mp4',
-    'videos/VIDEO12.mp4',
-    'videos/VIDEO13.mp4',
-    'videos/VIDEO14.mp4',
-    'videos/VIDEO15.mp4',
-    'videos/VIDEO16.mp4'
-
+    'videos/VIDEO 1.mp4',
+    'videos/VIDEO 2.mp4',
+    'videos/VIDEO 3.mp4',
+    'videos/VIDEO 4.mp4',
+    'videos/VIDEO 5.mp4',
+    'videos/VIDEO 6.mp4',
+    'videos/VIDEO 7.mp4',
+    'videos/VIDEO 8.mp4',
+    'videos/VIDEO 9.mp4',
+    'videos/VIDEO 10.mp4',
+    'videos/VIDEO 11.mp4',
+    'videos/VIDEO 12.mp4',
+    'videos/VIDEO 13.mp4',
+    'videos/VIDEO 14.mp4',
+    'videos/VIDEO 15.mp4',
+    'videos/VIDEO 16.mp4'
   ]
   function changeIndex() {
     setPlayIndex(playIndex + 1)
